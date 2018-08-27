@@ -1,0 +1,44 @@
+.hero-banner-wrapper {
+    background-color: $black;
+    background-image: url(../images/hero-banner-mobile.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFF;
+    padding: 50px;
+    text-align: center;
+
+    & > .title-banner {
+      display: block;
+      margin: auto;
+      @media only screen and (min-width: 768px) {
+        display: none;
+      }
+    }
+
+    & > img {
+      display: none;
+      @media only screen and (min-width: 768px) {
+        display: block;
+        visibility: hidden;
+      }
+    }
+
+    @media only screen and (min-width: 480px) {
+      background-image: url(../images/hero-banner-tablet.jpg);
+    }
+
+    @media only screen and (min-width: 768px) {
+      background-image: url(../images/hero-banner-new.jpg);
+      background-repeat: no-repeat;
+      background-position: center right;
+      background-size: cover;
+      position: relative;
+      padding: 0;
+    }
+}
+
+.hero-img {
+    width: 100%;
+    height: auto;
+}

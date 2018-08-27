@@ -1,0 +1,169 @@
+.bg-section {
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: cover;
+  position: relative;
+  padding: 0;
+  min-height: auto;
+  @media only screen and (min-width: $screen-md) {
+    padding: 70px 0;
+    min-height: 500px;
+  }
+}
+
+.bg-r {
+  background-position: 62% center;
+}
+
+.bg-c {
+  background-position: center center;
+}
+
+.l-bg {
+    background-color: #e8e8e8;
+}
+
+.d-bg {
+  background-color: #565854;
+  color: #FFF;
+}
+
+@media only screen and (min-width: $screen-md) {
+  .light {
+    background-image: url(../images/light-bg.jpg);
+  }
+
+  .fiber {
+    background-image: url(../images/fiber-bg.jpg);
+  }
+
+  .upload {
+    background-image: url(../images/upload-bg.jpg);
+  }
+
+  .future {
+    background-image: url(../images/future-bg.jpg);
+  }
+
+  .netflix {
+    background-image: url(../images/netflix-bg.jpg);
+  }
+
+  .wireless {
+    background-image: url(../images/wireless-bg.jpg);
+  }
+
+  .theater {
+    /*background-image: url(../images/theater-bg.jpg);*/
+    background-size: contain;
+  }
+  .dvr {
+    background-image: url(../images/whole-home.jpg);
+  }
+
+  .voice {
+    background-image: url(../images/voice-bg.jpg);
+  }
+
+  .music {
+    background-image: url(../images/music-bg.jpg);
+  }
+}
+
+.post {
+  margin-top: 70px;
+  margin-bottom: 70px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  @media only screen and (min-width: 768px) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+}
+
+
+/*.netflix-old {
+    background-image: url(../images/tv_page_netflix_bg_7_21_17.jpg);
+    background-color: #565854;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 40% center;
+    display: block;
+    min-height: 200px;
+    padding: 50px 0;
+    color: #fff;
+    position: relative;
+    @media only screen and (min-width: 768px) {
+      min-height: 200px;
+      padding: 200px 0;
+    }
+}
+
+.netflix-old:before, .dvr:before {
+    content: '';
+    position: absolute;
+    background-color: rgba(0,0,0, .6);
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    display: block;
+    height: 100%;
+    z-index: 0;
+    @media only screen and (min-width: 768px) {
+      display:none;
+    }
+}
+
+.speeds:before, .wireless:before {
+    content: '';
+    position: absolute;
+    background-color: rgba(256,256,256, .8);
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    display: block;
+    height: 100%;
+    z-index: 0;
+    @media only screen and (min-width: 768px) {
+      display:none;
+    }
+}
+
+.dvr {
+    background-image: url(../images/whole-home.jpg);
+    background-color: #565854;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 40% center;
+    display: block;
+    min-height: 200px;
+    padding: 80px 0;
+    color: #fff;
+    position: relative;
+}
+
+.wireless {
+    background-image: url(../images/wireless.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 30%;
+    display: block;
+    padding: 80px 0;
+    position: relative;
+}
+
+.offer {
+    margin-top: 100px;
+}
+
+.col-price {
+    -ms-flex: 0 1 45%;
+    flex: 0 1 45%;
+    text-align: center;
+}
+
+*/
